@@ -13,29 +13,30 @@ For this project, the packages needed are :
 - yql
 - lodash
 
-Details : 
-1.meow
+Details : \
+
+1\.meow
 Used in 'cli.js'
 Package to parse input arguments
 Define the usage of the variable, set the comportement after the input.
 
-Form : meow(options,[minimistOptions])
+Form : > meow(options,[minimistOptions])
 
 Returns object : with input(array),flags,pkg,help(object)
 
-2.chalk
+2\.chalk
 Used in 'cli.js'
 Package to give style to the output on the terminal.
 You can set the color, style(bold, italic,...), background color.
 
-Form : chalk.<style>[.<style>...](string,[string,...])
+Form : > chalk.<style>[.<style>...](string,[string,...])
 
-3.update-notifier
+3\.update-notifier
 Package to send notifications in different platform.
 
-4.yql
+4\.yql
 Package to make simple query accross the Web.
 
-5.lodash
+5\.lodash
 Package with methods to make Javascript easier.
 Help to manipulate, test, interate.
