@@ -13,32 +13,32 @@ For this project, the packages needed are :
 - yql
 - lodash
 
-Details :\
+Details :  
 
-1\.meow\
-Used in 'cli.js'\
-Package to parse input arguments.\
-Define the usage of the variable, set the comportement after the input.
+1\.[meow](https://www.npmjs.com/package/meow)
+Used in 'cli.js'  
+Package to parse input arguments.  
+Define the usage of the variable, set the comportement after the input.  
 
-Form : 
-	> meow(options,[minimistOptions])
+Form :  
+	> meow(options,[minimistOptions])  
 
-Returns object : with input(array),flags,pkg,help(object)
+Returns object : with input(array),flags,pkg,help(object)  
 
-2\.chalk\
-Used in 'cli.js'
-Package to give style to the output on the terminal\.
+2\.[chalk](https://github.com/chalk/chalk)
+Used in 'cli.js'  
+Package to give style to the output on the terminal.  
 You can set the color, style(bold, italic,...), background color.
 
 Form : 
 	> chalk.<style>[.<style>...](string,[string,...])
 
-3\.update-notifier\
+3\.[update-notifier](https://www.npmjs.com/package/node-notifier)  
 Package to send notifications in different platform.
 
-4\.yql\
+4\.[yql](https://github.com/derek/node-yql)  
 Package to make simple query accross the Web.
 
-5\.lodash\
-Package with methods to make Javascript easier.\
+5\.[lodash](https://lodash.com/)  
+Package with methods to make Javascript easier.  
 Help to manipulate, test, interate.
