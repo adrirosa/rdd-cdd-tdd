@@ -15,23 +15,23 @@ For this project, the packages needed are :
 
 Details :  
 
-1\.[meow](https://www.npmjs.com/package/meow)
+1\.[meow](https://www.npmjs.com/package/meow)  
 Used in 'cli.js'  
 Package to parse input arguments.  
 Define the usage of the variable, set the comportement after the input.  
 
 Form :  
-	> meow(options,[minimistOptions])  
+	`meow(options,[minimistOptions])`  
 
 Returns object : with input(array),flags,pkg,help(object)  
 
-2\.[chalk](https://github.com/chalk/chalk)
+2\.[chalk](https://github.com/chalk/chalk)  
 Used in 'cli.js'  
 Package to give style to the output on the terminal.  
 You can set the color, style(bold, italic,...), background color.
 
 Form : 
-	> chalk.<style>[.<style>...](string,[string,...])
+	`chalk.<style>[.<style>...](string,[string,...])`
 
 3\.[update-notifier](https://www.npmjs.com/package/node-notifier)  
 Package to send notifications in different platform.
