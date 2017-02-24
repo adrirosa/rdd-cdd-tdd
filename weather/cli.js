@@ -7,6 +7,10 @@ const updateNotifier = require('update-notifier');
 const pkg = require('./package.json');
 const weather = require('./');
 
+/**
+ * Creation of the meow objet 
+ * Default args are city: Dakar, country: Bangladesh
+ **/
 const cli = meow({
 	help: [
 		'Usage',
@@ -29,8 +33,17 @@ function _toCelcius(temp) {
 	return Math.round(((temp - 32) * 5) / 9);
 }
 
+/**
+ * Send the json object
+ * Send notification
+ */
 updateNotifier({ pkg}).notify();
 
+/**
+ * Set the object weather and a callback
+ * arg -> input on the command line
+ * function callback -> Set the object weather
+ */
 weather(cli.input, (err, result) => {
 	if (err) {
 		console.log(chalk.bold.red(err));
